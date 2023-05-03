@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_corners"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tick"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="150dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Profile is set !"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginHorizontal="40dp"
+        android:fontFamily="@font/ubuntu_medium"
+        app:layout_constraintTop_toBottomOf="@id/tick"
+
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/great_job_you_ve_opened_the_door_to_a_nworld_of_fast_affordable_and_quality_n_healthcare"
+        app:layout_constraintTop_toBottomOf="@id/heading"
+        android:layout_marginTop="11dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:lines="3"
+        android:fontFamily="@font/ubuntu_regular"
+        android:layout_marginHorizontal="55dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:background="@drawable/round_box"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@id/text"
+        android:layout_marginHorizontal="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="46dp"
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>

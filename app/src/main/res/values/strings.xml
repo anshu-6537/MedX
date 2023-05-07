@@ -23,4 +23,16 @@
     <string name="forgot_password">Forgot password ?</string>
     <string name="enter_passsword">Enter Passsword</string>
     <string name="update_your_bio_data">Update your bio-data</string>
+    <string name="settings">Settings</string>
+    <string name="take_a_self_test"><u>Take a self-Test</u></string>
+    <string name="card_text">Your ID is under review. You’ll be notified once the review is done. Meanwhile, take a quick tour of the app and update your profile.</string>
+    <string name="complete_your_profile">Complete your profile</string>
+    <string name="update"><u>Update</u></string>
+    <string name="happy_to_help_you">Happy to help you !!</string>
+    <string name="text1">Wondering how some celebrities have such shiny skin and glowy skin you can almos</string>
+    <string name="consult_a_doctor">Consult a doctor</string>
+    <string name="consult_a_general_practictioner"><u>Consult a general practictioner</u></string>
+    <string name="category_not_listed">Category not listed ?</string>
+    <string name="complaint_text">Why do you want to consult a doctor?\nAdd a note about your health complaint.</string>
+    <string name="describe_your_complaint">Describe your complaint</string>
 </resources>

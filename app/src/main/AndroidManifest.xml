@@ -13,6 +13,20 @@
         android:theme="@style/Theme.MedX"
         tools:targetApi="31">
         <activity
+            android:name=".ConsultDoctor"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".home_page1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Settings"
             android:exported="false">
             <meta-data

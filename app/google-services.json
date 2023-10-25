@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "260270031914",
+    "project_id": "medx-7cd3e",
+    "storage_bucket": "medx-7cd3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260270031914:android:12dfd865de5fd18b1faf53",
+        "android_client_info": {
+          "package_name": "com.example.medx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxQ1pVSbS6g5cDSDAgKyPNyu_eiy-zQ7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

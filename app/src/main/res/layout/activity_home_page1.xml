@@ -5,6 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home_page1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
     
     <ImageView
         android:id="@+id/notification"
@@ -14,8 +23,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginEnd="28dp"
-        android:layout_marginTop="61dp"
-        />
+        android:layout_marginTop="41dp"
+        android:clickable="true"
+        android:focusable="true" />
     <TextView
         android:id="@+id/welcome"
         android:layout_width="wrap_content"
@@ -27,7 +37,7 @@
         android:fontFamily="@font/ubuntu_medium"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="62dp"
+        android:layout_marginTop="41dp"
         android:layout_marginStart="29dp"
         />
     <TextView
@@ -60,7 +70,7 @@
             android:layout_height="match_parent"
             android:text="@string/take_a_self_test"
             android:fontFamily="@font/ubuntu_regular"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:layout_marginStart="15dp"
             android:textColor="@color/white"
             android:layout_marginBottom="20dp"
@@ -72,9 +82,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="and stay informed ."
+            android:text="@string/and_stay_informed"
             android:fontFamily="@font/ubuntu_regular"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:textColor="@color/white"
             android:layout_marginStart="5dp"
             android:layout_marginBottom="20dp"
@@ -118,11 +128,12 @@
             app:layout_constraintTop_toTopOf="parent"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/updateProfile"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/update"
             android:layout_marginTop="112dp"
-            android:layout_marginEnd="28dp"
+            android:layout_marginStart="260dp"
             android:textAlignment="viewEnd"
             android:textSize="12sp"
             android:fontFamily="@font/ubuntu_bold"
@@ -146,9 +157,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#191919"
-            android:text="What do you want to do today?"
+            android:text="@string/what_do_you_want_to_do_today"
             android:fontFamily="@font/ubuntu_bold"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:layout_marginStart="26dp"
             />
         <ImageView
@@ -157,14 +168,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/consult_do"
-            android:layout_marginTop="14dp"
+            android:layout_marginTop="18dp"
             android:layout_marginStart="26dp"
             app:layout_constraintLeft_toLeftOf="parent"
+            android:clickable="true"
+            android:focusable="true"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Consult a\n doctor"
+            android:text="@string/consult_a_n_doctor"
             android:textColor="@color/black"
             android:lines="2"
             android:textAlignment="center"
@@ -181,14 +194,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/health_tip"
-            android:layout_marginTop="14dp"
+            android:layout_marginTop="18dp"
             android:layout_marginStart="26dp"
             app:layout_constraintLeft_toRightOf="@id/consult_doc"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="View health\n tips"
+            android:text="@string/view_health_n_tips"
             android:textColor="@color/black"
             android:lines="2"
             android:textStyle="bold"
@@ -198,12 +211,39 @@
             app:layout_constraintRight_toRightOf="@id/health_tip"
             android:layout_marginTop="18dp"
             />
+
+        <ImageView
+            android:id="@+id/dietplan"
+            app:layout_constraintTop_toBottomOf="@id/constarint2_text"
+            android:layout_width="75dp"
+            android:layout_height="72dp"
+            android:src="@drawable/diet"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="26dp"
+            app:layout_constraintLeft_toRightOf="@id/health_tip"
+            />
+        <TextView
+            android:id="@+id/viewDiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_diet_nplan"
+            android:textColor="@color/black"
+            android:lines="2"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@id/health_tip"
+            app:layout_constraintLeft_toRightOf="@id/constarint2_text"
+            app:layout_constraintLeft_toLeftOf="@id/dietplan"
+            app:layout_constraintRight_toRightOf="@id/dietplan"
+            android:layout_marginTop="18dp"
+            />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
     
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Health tips"
+        android:text="@string/health_tips"
         android:fontFamily="@font/ubuntu_bold"
         android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/constarint3"
@@ -214,19 +254,21 @@
         android:id="@+id/view_more"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintRight_toRightOf="@id/constarint2"
         android:layout_marginEnd="17dp"
         app:layout_constraintTop_toBottomOf="@id/constarint3"
         android:layout_marginTop="64dp"
-        android:text="View more"
+        android:text="@string/view_more"
         android:textColor="#0139B4"
         app:layout_constraintLeft_toRightOf="@id/constarint3"
         />
     <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
         app:layout_constraintTop_toBottomOf="@id/view_more"
         android:layout_marginTop="27dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
         android:layout_marginHorizontal="26dp"
         android:backgroundTint="#FF9CD4F4"
         >
@@ -234,7 +276,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/care_skin_pic"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -243,7 +286,7 @@
             android:layout_marginTop="8dp"
             android:textColor="@color/black"
             android:fontFamily="@font/ubuntu_bold"
-            android:text="How to care for your skin"
+            android:text="@string/how_to_care_for_your_skin"
             />
 
         <TextView
@@ -251,6 +294,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="106dp"
             android:layout_marginTop="28dp"
+            android:layout_marginBottom="12dp"
             android:fontFamily="@font/ubuntu_medium"
             android:text="@string/text1"
             android:layout_marginEnd="9dp"
@@ -258,14 +302,74 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Read more..."
-            android:layout_marginTop="60dp"
-            android:layout_marginStart="205dp"
+            android:text="@string/read_more"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
             android:textColor="#0139B4"
             android:textSize="12sp"
             android:textStyle="bold"
             android:clickable="true"
             android:focusable="true" />
     </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                app:layout_constraintTop_toBottomOf="@id/card1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="27dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="12dp"
+                android:layout_marginHorizontal="26dp"
+                android:backgroundTint="#FF9CD4F4"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/apple"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="14dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:text="@string/take_care_of_your_diet"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginTop="28dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:text="@string/text1"
+                    android:layout_marginEnd="9dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/read_more"
+                    android:layout_marginTop="80dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#0139B4"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,7 +25,7 @@
     <string name="update_your_bio_data">Update your bio-data</string>
     <string name="settings">Settings</string>
     <string name="take_a_self_test"><u>Take a self-Test</u></string>
-    <string name="card_text">Your ID is under review. You’ll be notified once the review is done. Meanwhile, take a quick tour of the app and update your profile.</string>
+    <string name="card_text">Your ID is under review. You\’ll be notified once the review is done. Meanwhile, take a quick tour of the app and update your profile.</string>
     <string name="complete_your_profile">Complete your profile</string>
     <string name="update"><u>Update</u></string>
     <string name="happy_to_help_you">Happy to help you !!</string>
@@ -35,4 +35,154 @@
     <string name="category_not_listed">Category not listed ?</string>
     <string name="complaint_text">Why do you want to consult a doctor?\nAdd a note about your health complaint.</string>
     <string name="describe_your_complaint">Describe your complaint</string>
+    <string name="read_more">Read more…</string>
+    <string name="view_more">View more</string>
+    <string name="select_image">Select Image</string>
+    <string name="upload_image">Upload</string>
+    <string name="upload_you_documents">Upload you Documents</string>
+    <string name="what_do_you_want_to_do_today">What do you want to do today?</string>
+    <string name="and_stay_informed">and stay informed .</string>
+    <string name="consult_a_n_doctor">Consult a\n doctor</string>
+    <string name="view_health_n_tips">View health\n tips</string>
+    <string name="health_tips">Health tips</string>
+    <string name="how_to_care_for_your_skin">How to care for your skin</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="weight">Weight</string>
+    <string name="cms">Cms</string>
+    <string name="_170">170</string>
+    <string name="bmi">BMI</string>
+    <string name="height">Height</string>
+    <string name="dinner">Dinner</string>
+    <string name="menu">Menu</string>
+    <string name="midmeal">MidMeal</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="snacks">Snacks</string>
+    <string name="submit">submit</string>
+    <string name="view_diet_nplan">View Diet\nplan</string>
+    <string name="generate_diet">Generate Diet</string>
+    <string name="kgs">Kgs</string>
+    <string name="take_care_of_your_diet">Take care of your diet</string>
+    <string name="tips_for_obesity">Tips for Obesity</string>
+    <string name="prevention_from_hairfall">Prevention from Hairfall</string>
+    <string name="acne_prevention">Acne Prevention</string>
+    <string name="dental_problems">Dental problems</string>
+    <string name="maintain_a_good_sleep_cycle">Maintain a good Sleep cycle</string>
+    <string name="maintain_diet_for_malnutrition">Maintain Diet for Malnutrition</string>
+    <string name="how_to_stay_hydrated">How to Stay Hydrated</string>
+
+    <string name="Skin">Taking care of a teenager\'s skin is important because this is a time when many hormonal changes can lead to various skin issues like acne. Here are some general tips for teenagers to maintain healthy skin:</string>
+    <string name="types_skin"><u><b>Cleansing</b></u>: Teach them to wash their face twice a day with a gentle, sulfate-free cleanser. Avoid using harsh soaps or scrubbing too vigorously, as this can irritate the skin.\n<u><b>Hydration</b></u>: Encourage them to drink plenty of water to keep their skin hydrated from within. Proper hydration is essential for healthy skin.\n<u><b>Sun Protection</b></u>: Stress the importance of wearing sunscreen daily, even on cloudy days, to protect their skin from harmful UV rays. Look for a broad-spectrum sunscreen with at least SPF 30.\n<u><b>Balanced Diet</b></u>: A balanced diet rich in fruits, vegetables, and whole grains can contribute to healthier skin. Foods high in antioxidants, like berries and leafy greens, can help combat free radicals.\nRemember that everyone\'s skin is different, and what works for one person may not work for another. It may take some trial and error to find the right skincare routine and products that suit your teenager\'s skin type and specific concerns. Patience and consistency are key when it comes to skincare.</string>
+
+    <string name="obesity">Obesity is a complex condition that results from a combination of genetic, environmental, behavioral, and hormonal factors. Understanding the causes and prevention of obesity is crucial for managing and reducing its prevalence. Here are some key factors and strategies related to the causes and prevention of obesity:</string>
+    <string name="causes_obesity">Genetics: Some individuals may have a genetic predisposition to obesity, which can make it more challenging to control their weight.\n<u><b>Diet</b></u>: Poor dietary choices, including a high intake of calorie-dense, low-nutrient foods such as sugary drinks, fast food, and processed snacks, can contribute to obesity.\n<u><b>Physical Activity</b></u>: A sedentary lifestyle with little or no physical activity can lead to weight gain and obesity.\n<u><b>Environmental Factors</b></u>: Environmental factors, such as easy access to unhealthy foods and the promotion of sedentary behaviors, can influence obesity rates.\n<u><b>Psychological Factors</b></u>: Emotional factors like stress, depression, and boredom can lead to overeating, which contributes to obesity.\n<u><b>Hormonal Imbalances</b></u>: Certain hormonal conditions, like hypothyroidism or polycystic ovary syndrome (PCOS), can lead to weight gain and obesity.\n<u><b>Medications</b></u>: Some medications, such as certain antidepressants and corticosteroids, can cause weight gain as a side effect.</string>
+    <string name="prevent_obesity">Healthy Eating: Adopting a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats is essential. Reducing the consumption of sugary and processed foods is crucial.\n<u><b>Portion Control</b></u>: Pay attention to portion sizes to avoid overeating. Use smaller plates and be mindful of portion sizes when dining out.\n<u><b>Regular Physical Activity</b></u>: Aim for at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity aerobic activity per week, along with muscle-strengthening activities on two or more days a week.\n<u><b>Behavioral Changes</b></u>: Develop healthy eating habits and strategies to cope with stress and emotional eating. Seek support from a therapist or counselor if necessary.\n<u><b>Lifestyle Modification</b></u>: Make sustainable changes to your daily routines, such as walking or cycling instead of driving, taking the stairs instead of the elevator, and reducing screen time.\n<u><b>Education</b></u>: Educate yourself and your family about nutrition and the importance of a healthy lifestyle. Encourage healthy eating habits from a young age.\n<u><b>Limit Sugary Drinks</b></u>: Reduce the consumption of sugary beverages like soda, energy drinks, and fruit juices, as they are major contributors to excess calories.\n<u><b>Regular Check-ups</b></u>: Visit your healthcare provider regularly to monitor your weight and discuss any health concerns. They can provide guidance on weight management and offer support.\n<u><b>Medically Supervised Programs</b></u>: In some cases, medical interventions such as weight-loss surgery or prescription medications may be recommended for individuals with severe obesity or related health problems. These should be considered under the guidance of a healthcare professional.\n<u><b>Community and Policy Interventions</b></u>: Support policies and initiatives that promote healthy food environments, physical activity, and access to nutritious foods in schools, workplaces, and communities.</string>
+
+    <string name="dental">Dental problems, such as cavities, gum disease, and tooth decay, can be caused by a variety of factors, many of which are preventable through good oral hygiene practices and regular dental care. Here are some common causes and prevention strategies for dental problems:</string>
+    <string name="causes_dental">Poor Oral Hygiene: Inadequate brushing and flossing can lead to the accumulation of plaque and bacteria on teeth, which can cause cavities and gum disease.\n<u><b>Diet</b></u>: A diet high in sugary and acidic foods and drinks can contribute to tooth decay. Sugars feed harmful bacteria in the mouth, leading to the production of acids that erode tooth enamel.\n<u><b>Tobacco Use</b></u>: Smoking and using tobacco products increase the risk of gum disease, tooth decay, and oral cancer.\n<u><b>Alcohol Consumption</b></u>: Excessive alcohol consumption can contribute to dry mouth, which reduces saliva production and increases the risk of cavities.\n<u><b>Genetics</b></u>: Some individuals may be genetically predisposed to dental problems, such as a higher susceptibility to cavities.\n<u><b>Medical Conditions</b></u>: Certain medical conditions like diabetes and autoimmune diseases can affect oral health and increase the risk of dental problems.\n<u><b>Medications</b></u>: Some medications, particularly those that cause dry mouth as a side effect, can contribute to tooth decay.\n<u><b>Age</b></u>: As people age, they may be more susceptible to dental problems due to changes in oral health and increased medication use.</string>
+    <string name="prevent_dental">Regular Dental Check-ups: Visit your dentist for regular check-ups and professional cleanings. Dental professionals can identify and address dental issues early.\n<u><b>Daily Oral Hygiene</b></u>: Brush your teeth at least twice a day with fluoride toothpaste and use dental floss or interdental brushes to clean between teeth daily.\n<u><b>Limit Sugary and Acidic Foods</b></u>: Reduce the consumption of sugary snacks, candies, and acidic beverages like soda. If you consume them, rinse your mouth with water afterward.\n<u><b>Balanced Diet</b></u>: Eat a diet rich in fruits, vegetables, lean proteins, and whole grains to promote overall health, including oral health.\n<u><b>Avoid Tobacco Products</b></u>: Quit smoking and avoid using tobacco products to reduce the risk of gum disease, oral cancer, and other dental problems.\n<u><b>Limit Alcohol</b></u>: If you consume alcohol, do so in moderation, and be mindful of its potential to contribute to dry mouth.\n<u><b>Stay Hydrated</b></u>: Drink plenty of water throughout the day to maintain proper saliva production, which helps protect teeth and gums.\n<u><b>Use Fluoride</b></u>: Use fluoride toothpaste and consider fluoride treatments recommended by your dentist to strengthen tooth enamel.\n<u><b>Mouth guards</b></u>: If you participate in contact sports or grind your teeth at night, consider using a mouth guard to protect your teeth from injury and damage.\n<u><b>Stress Management</b></u>: High levels of stress can contribute to teeth grinding (bruxism). Practice stress-reduction techniques to minimize its impact on your teeth.\n<u><b>Education</b></u>: Educate yourself and your family about proper oral hygiene practices and the importance of regular dental care.\n<u><b>Children\'s Oral Health</b></u>: Pay special attention to children\'s oral health, starting with the eruption of their first tooth. Encourage proper brushing and limit sugary snacks and drinks.</string>
+
+    <string name="sleep_cycle">Maintaining a good sleep cycle, also known as a healthy sleep routine or sleep hygiene, is important for overall health and well-being. A consistent sleep pattern helps regulate your body\'s internal clock, improves the quality of your sleep, and enhances daytime alertness. Here are some tips to help you establish and maintain a good sleep cycle:</string>
+    <string name="ways_cycle"><u><b>Set a Consistent Sleep Schedule</b></u>:Go to bed and wake up at the same time every day, even on weekends. This helps regulate your body\'s internal clock.\n<u><b>Create a Relaxing Bedtime Routine</b></u>:Establish a calming pre-sleep routine to signal to your body that it\'s time to wind down. Activities may include reading a book, taking a warm bath, practicing relaxation techniques, or gentle stretches.\n<u><b>Create a Comfortable Sleep Environment</b></u>:Make your bedroom conducive to sleep by keeping it dark, quiet, and cool. Use blackout curtains, earplugs, or a white noise machine if necessary.Ensure a comfortable mattress and pillows that support your sleeping position.\n<u><b>Limit Exposure to Screens</b></u>:Reduce exposure to screens (phones, tablets, computers, TVs) at least an hour before bedtime. The blue light emitted from screens can interfere with your ability to fall asleep.\n<u><b>Watch Your Diet</b></u>:Avoid large meals, caffeine, and alcohol close to bedtime. These substances can disrupt your sleep.\n<u><b>Get Regular Exercise</b></u>:Engage in regular physical activity, but avoid vigorous exercise close to bedtime. Aim for at least 30 minutes of exercise most days of the week.\n<u><b>Manage Stress</b></u>:Practice relaxation techniques, such as deep breathing, meditation, or progressive muscle relaxation, to reduce stress and anxiety that can interfere with sleep.\n<u><b>Limit Naps</b></u>:If you need to nap during the day, keep it short (20–30 minutes) and avoid napping too close to bedtime.\n<u><b>Expose Yourself to Natural Light</b></u>:Spend time outdoors during the day, especially in the morning, to help regulate your body\'s internal clock. Natural light exposure can improve your sleep-wake cycle.\n<u><b>Limit Liquids Before Bed</b></u>:Minimize your intake of fluids in the evening to reduce nighttime awakenings due to bathroom trips.\n<u><b>Be Mindful of Alarm Clock Use</b></u>:Try not to constantly check the time on your alarm clock during the night, as this can increase stress and anxiety.\n<u><b>Seek Professional Help if Needed</b></u>:If you consistently have trouble sleeping, experience symptoms of sleep disorders (such as sleep apnea or insomnia), or have other health concerns affecting your sleep, consult a healthcare professional or sleep specialist.</string>
+
+    <string name="asthma">Asthma is a chronic respiratory condition that affects the airways in the lungs, causing them to become inflamed and narrowed. It can result in symptoms like wheezing, coughing, shortness of breath, and chest tightness. While asthma has a genetic component, it can also be triggered or exacerbated by various environmental factors. Here are the causes and prevention strategies for asthma:</string>
+    <string name="causes_asthma"><u><b>Genetics</b></u>: Individuals with a family history of asthma or other allergic conditions are more likely to develop asthma.\n<u><b>Allergens</b></u>: Exposure to allergens such as pollen, dust mites, pet dander, mold, and cockroach droppings can trigger asthma symptoms in sensitive individuals.\n<u><b>Respiratory Infections</b></u>: Viral respiratory infections, particularly in early childhood, can increase the risk of developing asthma.\n<u><b>Environmental Factors</b></u>: Air pollution, secondhand smoke, and occupational exposure to irritants like chemicals or dust can contribute to asthma development or exacerbate symptoms.\n<u><b>Physical Activity</b></u>: In some cases, physical exertion or exercise can trigger exercise-induced bronchoconstriction (EIB) in individuals with asthma.\n<u><b>Gastro-esophageal Reflux Disease (GERD)</b></u>: Acid reflux from the stomach can sometimes trigger or worsen asthma symptoms.\n<u><b>Stress</b></u>: Emotional stress can lead to worsened asthma symptoms in some individuals.</string>
+    <string name="prevent_asthma"><u><b>Avoid Allergens</b></u>: If you have known allergies, take steps to minimize exposure to allergens. This may include using allergen-proof covers on bedding, keeping indoor spaces clean and well-ventilated, and managing pet allergens if you have pets.\n<u><b>Reduce Exposure to Irritants</b></u>: Avoid exposure to tobacco smoke, air pollution, and workplace irritants whenever possible.\n<u><b>Vaccinations</b></u>: Keep up to date with vaccinations, including those for respiratory infections like influenza and pneumonia, as these can trigger asthma exacerbations.\n<u><b>Breastfeeding</b></u>: If possible, breastfeed your baby, as breastfeeding may help reduce the risk of developing asthma in early childhood.\n<u><b>Maintain a Healthy Lifestyle</b></u>: Eating a balanced diet, maintaining a healthy weight, and engaging in regular physical activity can contribute to overall respiratory health.\n<u><b>Manage Stress</b></u>: Learn stress management techniques to help reduce emotional stress, which can exacerbate asthma symptoms.\n<u><b>Asthma Action Plan</b></u>: Work with your healthcare provider to develop an asthma action plan that includes a treatment regimen and instructions on managing symptoms and exacerbations.\n<u><b>Medications</b></u>: If you have asthma, take prescribed medications as directed by your healthcare provider to control and manage your symptoms. This may include long-term control medications and quick-relief (rescue) inhalers.\n<u><b>Regular Check-ups</b></u>: Schedule regular check-ups with your healthcare provider to monitor your asthma and adjust your treatment plan as needed.</string>
+
+    <string name="malnutrition">Maintaining a diet for a malnourished individual requires a carefully planned and balanced approach to provide essential nutrients, promote weight gain, and restore overall health. It\'s crucial to work closely with a healthcare professional or registered dietitian to develop a personalized nutrition plan tailored to the specific needs of the individual. Here are some general guidelines for managing the diet of a malnourished person:</string>
+    <string name="ways_malnutrition"><u><b>Assessment and Medical Evaluation</b></u>:Start by assessing the person\'s nutritional status, including their weight, height, body mass index (BMI), and any underlying medical conditions. Consult with a healthcare provider or dietitian to identify the severity and underlying causes of malnutrition.\n<u><b>Increase Caloric Intake</b></u>:Malnourished individuals often need to increase their caloric intake to promote weight gain and restore energy levels. This should be done gradually and under medical supervision.\n<u><b>Balanced Diet</b></u>:Ensure the diet includes a balance of macronutrients (carbohydrates, proteins, and fats) and micronutrients (vitamins and minerals). A variety of nutrient-rich foods is essential.\n<u><b>Protein-Rich Foods</b></u>:Protein is crucial for tissue repair and muscle growth. Include protein-rich foods such as lean meats, poultry, fish, eggs, dairy products, beans, legumes, and nuts.\n<u><b>Carbohydrates</b></u>:Carbohydrates provide energy. Choose complex carbohydrates like whole grains, fruits, vegetables, and starchy vegetables like potatoes and sweet potatoes.\n<u><b>Vitamin and Mineral Supplements</b></u>:If the person has specific deficiencies, they may need supplements to address those deficiencies. This should be determined by a healthcare provider or dietitian.</string>
+
+    <string name="acne">Acne is a common skin condition that affects many adolescents and young adults. It\'s characterized by pimples, blackheads, and whiteheads, often on the face, chest, and back. Hormonal changes during puberty play a significant role in its development.Acne is a common skin condition that occurs when hair follicles become clogged with oil and dead skin cells, leading to the formation of pimples, blackheads, and whiteheads.Overproduction of sebum (skin oil) by the sebaceous glands can clog pores and lead to acne.High-stress levels can lead to the release of hormones that increase sebum production and inflammation.When skin cells and sebum accumulate in hair follicles, it can create an environment where bacteria thrive, causing inflammation and acne.</string>
+    <string name="cause_acne"><u><b>Excess Oil Production (Sebum)</b></u>: One of the primary causes of acne is the overproduction of sebum, a type of oil produced by the sebaceous glands in your skin. Excess sebum can clog hair follicles, creating an environment where acne-causing bacteria can thrive.<u><b>Bacteria</b></u>: Propionibacterium acnes (P. acnes) is a bacterium that naturally lives on your skin. When hair follicles become clogged, P. acnes can multiply and contribute to inflammation, leading to acne.<u><b>Clogged Hair Follicles</b></u>: When dead skin cells mix with sebum, they can block hair follicles. This blockage can lead to the formation of different types of acne lesions, including blackheads, whiteheads, papules, pustules, nodules, and cysts.<u><b>Hormonal Changes</b></u>: Hormonal fluctuations, such as those that occur during puberty, menstruation, pregnancy, and menopause, can trigger acne. Androgens, which are male hormones present in both males and females, can increase sebum production and lead to acne development.</string>
+    <string name="prevent_acne"><u><b>Maintain Good Hygiene</b></u>:
+1)Gently cleanse your face twice daily with a mild, fragrance-free cleanser. Avoid scrubbing too vigorously, as this can irritate the skin.
+2)Use lukewarm water, as hot water can strip your skin of natural oils.
+3)Pat your face dry with a clean, soft towel; avoid rubbing.
+<u><b>Use Non-Comedogenic Products</b></u>:
+1)Choose skincare and cosmetic products labeled as "non-comedogenic" or "oil-free." These products are less likely to clog your pores.
+2)Be cautious with heavy, oil-based makeup, as it can contribute to acne.
+<u><b>Moisturize Appropriately</b></u>:1)Even if you have oily skin, it\'s important to use a lightweight, oil-free, or non-comedogenic moisturizer to keep your skin hydrated. Proper hydration can help maintain a healthy skin barrier.
+<u><b>Avoid Touching Your Face</b></u>:1)Avoid touching your face, as this can transfer dirt, bacteria, and oils from your hands to your skin, potentially worsening acne</string>
+
+
+    <string name="hydration">Hydration is crucial for the proper functioning of the human body. Water makes up a significant portion of our body, and it plays various essential roles. Dehydration occurs when the body loses more fluids than it takes in, and this can have a range of negative effects on health. Here\'s an overview of hydration, the effects of dehydration, and tips for preventing it:</string>
+    <string name="causes_hydration"><u><b>Inadequate Fluid Intake</b></u>: One of the most common causes of dehydration is simply not drinking enough fluids, especially when you are active or exposed to hot and dry conditions.
+<u><b>Excessive Sweating</b></u>: Sweating is the body\'s natural cooling mechanism, but excessive sweating, such as during intense physical activity or in hot weather, can lead to significant fluid loss.
+<u><b>Fever</b></u>: High body temperature, often associated with a fever due to illness, can cause increased sweating and fluid loss, leading to dehydration.
+<u><b>Diarrhea</b></u>: Frequent watery stools can lead to rapid fluid loss from the body. Gastrointestinal illnesses, infections, or food poisoning are common causes of diarrhea-induced dehydration.</string>
+    <string name="prevent_hydration"><u><b>Drink Plenty of Water</b></u>: The most straightforward way to prevent dehydration is to drink an adequate amount of water daily. The recommended amount can vary depending on factors like age, sex, activity level, and climate, but a general guideline is about 8 glasses (64 ounces) of water per day for adults.
+<u><b>Monitor Hydration</b></u>: Pay attention to your body\'s signals, such as thirst and the color of your urine. Thirst is a natural indicator that your body needs water, and pale yellow urine typically indicates good hydration.
+<u><b>Stay Hydrated During Physical Activity</b></u>: When exercising or participating in activities that cause you to sweat, drink water before, during, and after to replace lost fluids. Sports drinks with electrolytes may be necessary for extended or intense workouts.
+<u><b>Eat Hydrating Foods</b></u>: Many fruits and vegetables have high water content and can contribute to your daily hydration. Examples include watermelon, cucumber, oranges, and celery.
+<u><b>Limit Dehydrating Beverages</b></u>: Reduce or avoid beverages that can contribute to dehydration, such as alcohol and caffeinated drinks, as they can have diuretic effects.
+<u><b>Maintain Proper Electrolyte Balance</b></u>: In hot weather or during strenuous exercise, you may need to replenish electrolytes lost through sweat. Sports drinks or electrolyte supplements can help in these situations.</string>
+
+
+    <string name="hairfall">Hair fall, also known as hair loss or alopecia, can have various causes, and its prevention and treatment depend on identifying the underlying reason for your specific case. Here are some common causes of hair fall and potential preventive measure</string>
+    <string name="causes_hairfall"><u><b>Genetics (Androgenetic Alopecia)</b></u>: One of the most common causes of hair loss is a genetic predisposition to androgenetic alopecia, also known as male-pattern or female-pattern baldness. This condition can lead to gradual hair thinning and eventual baldness.
+<u><b>Hormonal Changes</b></u>: Hormonal fluctuations can play a significant role in hair loss. This includes changes during pregnancy, childbirth, menopause, and conditions like polycystic ovary syndrome (PCOS).
+<u><b>Medical Conditions</b></u>: Certain medical conditions can contribute to hair loss, including thyroid disorders (hypothyroidism or hyperthyroidism), autoimmune diseases (alopecia areata), and scalp conditions like psoriasis or seborrheic dermatitis.
+<u><b>Medications</b></u>: Some medications, such as chemotherapy drugs, anticoagulants, antidepressants, and high-dose vitamin A supplements, can cause</string>
+    <string name="prevent_hairfall"><u><b>Maintain a Healthy Diet</b></u>:
+Ensure your diet includes a variety of nutrients, including vitamins (particularly B vitamins like biotin and folic acid), minerals (such as iron and zinc), and protein. Hair is primarily made of protein, so a lack of it in your diet can contribute to hair loss.
+Consume plenty of fruits, vegetables, lean proteins, whole grains, and foods rich in essential fatty acids, like salmon and flaxseeds.
+<u><b>Scalp Health</b></u>:
+Keep your scalp clean and free of excess oil and dandruff, which can clog hair follicles and contribute to hair loss.
+Use a gentle, sulfate-free shampoo and conditioner suitable for your hair type.
+Consider using a medicated or prescription shampoo if you have a scalp condition like dandruff or psoriasis.
+<u><b>Hair Care Practices</b></u>:
+Avoid harsh hair treatments, such as frequent dyeing, perming, or straightening, as these can damage hair and weaken follicles.
+Be gentle when styling your hair, and avoid tight hairstyles that pull on the hair shaft, like tight ponytails or braids.
+<u><b>Reduce Heat and Styling Damage</b></u>:
+Limit the use of heat styling tools like hairdryers, straighteners, and curling irons.Use heat protectant products when styling your hair with heat tools.</string>
+    <string name="fetch">Fetch</string>
+
+    <string-array name="symp1">
+        <item>Headache</item>
+        <item>Fever</item>
+        <item>Nausea</item>
+        <item>Cough</item>
+        <item>Stomach ache</item>
+        <item>Joint Pain</item>
+    </string-array>
+
+<!--    <string-array name="symp2">-->
+<!--        <item>Headache</item>-->
+<!--        <item>Fever</item>-->
+<!--        <item>Nausea</item>-->
+<!--        <item>Cough</item>-->
+<!--        <item>Stomach ache</item>-->
+<!--        <item>Joint Pain</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="symp3">-->
+<!--        <item>Headache</item>-->
+<!--        <item>Fever</item>-->
+<!--        <item>Nausea</item>-->
+<!--        <item>Cough</item>-->
+<!--        <item>Stomach ache</item>-->
+<!--        <item>Joint Pain</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="symp4">-->
+<!--        <item>Headache</item>-->
+<!--        <item>Fever</item>-->
+<!--        <item>Nausea</item>-->
+<!--        <item>Cough</item>-->
+<!--        <item>Stomach ache</item>-->
+<!--        <item>Joint Pain</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="symp5">-->
+<!--        <item>Headache</item>-->
+<!--        <item>Fever</item>-->
+<!--        <item>Nausea</item>-->
+<!--        <item>Cough</item>-->
+<!--        <item>Stomach ache</item>-->
+<!--        <item>Joint Pain</item>-->
+<!--    </string-array>-->
+
+
 </resources>

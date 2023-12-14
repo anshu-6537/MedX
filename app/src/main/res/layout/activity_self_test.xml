@@ -5,121 +5,165 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Self_test">
-    
-    <TextView
-        android:id="@+id/text1"
-        android:textSize="16sp"
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:background="@null"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="28dp"
-        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        />
+    <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
-        android:fontFamily="@font/ubuntu_bold"
         android:layout_height="wrap_content"
-        android:text="Symptom 1 :"
+        android:text="Predict your disease"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
         />
     
+<!--    <TextView-->
+<!--        android:id="@+id/text1"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        android:layout_marginTop="28dp"-->
+<!--        android:layout_marginStart="18dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:fontFamily="@font/ubuntu_bold"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Symptom 1 :"-->
+<!--        />-->
+<!--    -->
     <Spinner
+        android:id="@+id/spin1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/text1"
+        app:layout_constraintTop_toBottomOf="@id/text"
         android:layout_marginEnd="25dp"
         android:layout_marginTop="8dp"
         android:entries="@array/symp1"
-        app:layout_constraintLeft_toLeftOf="@id/text1"
-        />
-
-    <TextView
-        android:id="@+id/text2"
-        android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text1"
-        android:layout_marginTop="100dp"
         android:layout_marginStart="18dp"
-        android:layout_width="wrap_content"
-        android:fontFamily="@font/ubuntu_bold"
-        android:layout_height="wrap_content"
-        android:text="Symptom 2 :"
         />
 
+<!--    <TextView-->
+<!--        android:id="@+id/text2"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text1"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_marginStart="18dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:fontFamily="@font/ubuntu_bold"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Symptom 2 :"-->
+<!--        />-->
+
     <Spinner
+        android:id="@+id/spin2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintTop_toBottomOf="@id/spin1"
         android:layout_marginEnd="25dp"
         android:layout_marginTop="8dp"
         android:entries="@array/symp1"
-        app:layout_constraintLeft_toLeftOf="@id/text2"
+        app:layout_constraintLeft_toLeftOf="@id/spin1"
         />
 
-    <TextView
-        android:id="@+id/text3"
-        android:textSize="16sp"
+<!--    <TextView-->
+<!--        android:id="@+id/text3"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text2"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_marginStart="18dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:fontFamily="@font/ubuntu_bold"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Symptom 3 :"-->
+<!--        />-->
+
+    <Spinner
+        android:id="@+id/spin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/spin2"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/symp1"
+        app:layout_constraintLeft_toLeftOf="@id/spin2"
+        />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/text4"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text3"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_marginStart="18dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:fontFamily="@font/ubuntu_bold"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Symptom 4 :"-->
+<!--        />-->
+
+    <Spinner
+        android:id="@+id/spin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/spin3"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/symp1"
+        app:layout_constraintLeft_toLeftOf="@id/spin3"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/text5"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text4"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_marginStart="18dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:fontFamily="@font/ubuntu_bold"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Symptom 5 :"-->
+<!--        />-->
+
+<!--    <Spinner-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text5"-->
+<!--        android:layout_marginEnd="25dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:entries="@array/symp1"-->
+<!--        app:layout_constraintLeft_toLeftOf="@id/text5"-->
+<!--        />-->
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/spin4"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text2"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="18dp"
-        android:layout_width="wrap_content"
-        android:fontFamily="@font/ubuntu_bold"
-        android:layout_height="wrap_content"
-        android:text="Symptom 3 :"
-        />
-
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/text3"
-        android:layout_marginEnd="25dp"
-        android:layout_marginTop="8dp"
-        android:entries="@array/symp1"
-        app:layout_constraintLeft_toLeftOf="@id/text3"
-        />
-
-
-    <TextView
-        android:id="@+id/text4"
-        android:textSize="16sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text3"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="18dp"
-        android:layout_width="wrap_content"
-        android:fontFamily="@font/ubuntu_bold"
-        android:layout_height="wrap_content"
-        android:text="Symptom 4 :"
-        />
-
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/text4"
-        android:layout_marginEnd="25dp"
-        android:layout_marginTop="8dp"
-        android:entries="@array/symp1"
-        app:layout_constraintLeft_toLeftOf="@id/text4"
-        />
-
-    <TextView
-        android:id="@+id/text5"
-        android:textSize="16sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text4"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="18dp"
-        android:layout_width="wrap_content"
-        android:fontFamily="@font/ubuntu_bold"
-        android:layout_height="wrap_content"
-        android:text="Symptom 5 :"
-        />
-
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/text5"
-        android:layout_marginEnd="25dp"
-        android:layout_marginTop="8dp"
-        android:entries="@array/symp1"
-        app:layout_constraintLeft_toLeftOf="@id/text5"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbutton"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

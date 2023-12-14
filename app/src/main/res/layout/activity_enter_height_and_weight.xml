@@ -17,7 +17,19 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CMs"
+        app:layout_constraintLeft_toRightOf="@id/heighttext"
+        app:layout_constraintTop_toBottomOf="@id/heighttext"
+        android:layout_marginTop="-22dp"
+        android:layout_marginStart="8dp"
+        />
+
+
     <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:id="@+id/hseek"
         android:layout_width="18dp"
         android:layout_height="425dp"
         android:layout_marginEnd="25dp"
@@ -35,6 +47,18 @@
             android:splitTrack="false"
             app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
     </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textSize="24sp"
+        android:fontFamily="@font/ubuntu_medium"
+        app:layout_constraintTop_toBottomOf="@id/hseek"
+        app:layout_constraintLeft_toLeftOf="@id/hseek"
+        android:layout_marginStart="-22dp"
+        android:layout_marginTop="4dp"
+        />
 
     <ImageView
         android:id="@+id/height_image"
@@ -57,7 +81,18 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KGs"
+        app:layout_constraintLeft_toRightOf="@id/weighttext"
+        app:layout_constraintTop_toBottomOf="@id/weighttext"
+        android:layout_marginTop="-22dp"
+        android:layout_marginStart="8dp"
+        />
+
     <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:id="@+id/wseek"
         android:layout_width="18dp"
         android:layout_height="425dp"
         android:layout_marginStart="25dp"
@@ -78,6 +113,19 @@
             tools:layout_editor_absoluteY="169dp" />
         <!-- Rotation: CW90 or CW270 -->
     </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textSize="24sp"
+        android:fontFamily="@font/ubuntu_medium"
+        app:layout_constraintTop_toBottomOf="@id/wseek"
+        app:layout_constraintLeft_toLeftOf="@id/wseek"
+        android:layout_marginStart="-22dp"
+        android:layout_marginTop="4dp"
+        />
+
 
     <Button
         android:id="@+id/enter"

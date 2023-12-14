@@ -3,6 +3,7 @@ package com.example.medx
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.Toast
 import com.example.medx.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -23,8 +24,11 @@ class SignUp : AppCompatActivity() {
             val pass = binding.enterpass.text.toString()
             val confrmPass = binding.entercnfrmpass.text.toString()
 
-
-
+            val btn_click_back = findViewById<ImageButton>(R.id.back)
+            btn_click_back.setOnClickListener {
+                val intent = Intent(this, SignupORSignIn::class.java)
+                startActivity(intent)
+            }
 
             if (email.isNotEmpty() && pass.isNotEmpty() && confrmPass.isNotEmpty()) {
                 if (pass == confrmPass) {

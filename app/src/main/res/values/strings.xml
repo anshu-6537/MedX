@@ -1,18 +1,20 @@
 <resources>
     <string name="app_name">MedX</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
     <string name="skip">Skip</string>
     <string name="consult_a_doctor_on_the_go_using_your_phone">Consult a doctor on the go using your phone</string>
     <string name="find_verified_doctors_with_ease">Find verified                     doctors with ease</string>
     <string name="search_from_100s_of_verified_doctors_to_consult">Search from 100s of verified doctors to consult.</string>
     <string name="terms_of_use_privacy_policy">Terms of use, privacy policy</string>
-    <string name="welcome">Welcome to our healthcare app! These terms of use (the “Terms”) apply to your access and use of our healthcare app, including all related websites, mobile and desktop applications, services, and content provided through the app (collectively, the “App”). By accessing or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, you may not access or use the App. The App is provided for informational purposes only and is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your qualified healthcare provider with any questions you may have regarding a medical condition. You are responsible for the accuracy of any information you provide through the App, and you agree that the App will not be liable for any errors or omissions in the information you provide. You agree not to use the App for any purpose that is unlawful or prohibited by these Terms. You agree not to use the App in any way that could damage, disable, overburden, or impair the App or interfere with any other party’s use and enjoyment of the App. You may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products, or services obtained from the App. PRIVACY POLICY We are committed to protecting the privacy of our users. Our Privacy Policy explains how we collect, use, and protect information that you provide through the App. We may collect certain personal information from you when you use the App, such as your name, email address, and other contact information. We will never share this information with third parties. We will use the information we collect to provide you with the services and features available through the App. We may also use your information for internal purposes, such as to improve the App and our services, as well as to analyze and understand how our users use the App. We may also collect certain data from your use of the App, such as usage data and device data. This data will be used to analyze and understand how our users use the App, and to improve the App and our services. We may use third-party services to help us provide the App and our services. These services may collect or receive data from your use of the App, such as usage data and device data. We may disclose your personal information if required to do so by law or if we believe in good faith that such action is necessary to protect and defend the rights or property of the App or its users. We take reasonable steps to protect the security of your information. However, no data transmission over the internet or data storage system can be guaranteed to be 100% secure. As a result, we cannot guarantee the security of any information transmitted to or from the App. By using the App, you understand and agree that you are solely responsible for maintaining the security of your information.</string>
+    <string name="welcome">Welcome to our healthcare app\! These terms of use (the “Terms”) apply to your access and use of our healthcare app, including all related websites, mobile and desktop applications, services, and content provided through the app (collectively, the “App”). By accessing or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, you may not access or use the App. The App is provided for informational purposes only and is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your qualified healthcare provider with any questions you may have regarding a medical condition. You are responsible for the accuracy of any information you provide through the App, and you agree that the App will not be liable for any errors or omissions in the information you provide. You agree not to use the App for any purpose that is unlawful or prohibited by these Terms. You agree not to use the App in any way that could damage, disable, overburden, or impair the App or interfere with any other party’s use and enjoyment of the App. You may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products, or services obtained from the App. PRIVACY POLICY We are committed to protecting the privacy of our users. Our Privacy Policy explains how we collect, use, and protect information that you provide through the App. We may collect certain personal information from you when you use the App, such as your name, email address, and other contact information. We will never share this information with third parties. We will use the information we collect to provide you with the services and features available through the App. We may also use your information for internal purposes, such as to improve the App and our services, as well as to analyze and understand how our users use the App. We may also collect certain data from your use of the App, such as usage data and device data. This data will be used to analyze and understand how our users use the App, and to improve the App and our services. We may use third-party services to help us provide the App and our services. These services may collect or receive data from your use of the App, such as usage data and device data. We may disclose your personal information if required to do so by law or if we believe in good faith that such action is necessary to protect and defend the rights or property of the App or its users. We take reasonable steps to protect the security of your information. However, no data transmission over the internet or data storage system can be guaranteed to be 100% secure. As a result, we cannot guarantee the security of any information transmitted to or from the App. By using the App, you understand and agree that you are solely responsible for maintaining the security of your information.</string>
     <string name="i_accept">I accept</string>
-    <string name="welcome_to_medx">Welcome to MEDX</string>
+    <string name="welcome_to_medx">Welcome to MedX</string>
     <string name="access_quality_healthcare_with_ease_log_in_or_create_an_account_to_get_started">Access quality healthcare with ease. Log in or create an account to get started</string>
     <string name="log_in">Log in</string>
     <string name="create_an_account">Create an account</string>
-    <string name="great_job_you_ve_opened_the_door_to_a_nworld_of_fast_affordable_and_quality_n_healthcare">Great job! You’ve opened the door to a \nworld of fast, affordable and quality \n healthcare.</string>
-    <string name="welcome_back">Welcome back!</string>
+    <string name="great_job_you_ve_opened_the_door_to_a_nworld_of_fast_affordable_and_quality_n_healthcare">Great job\! You’ve opened the door to a \nworld of fast, affordable and quality \n healthcare.</string>
+    <string name="welcome_back">Welcome back\!</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
     <string name="create_account">Create account</string>
     <string name="view">View</string>
@@ -28,7 +30,7 @@
     <string name="card_text">Your ID is under review. You\’ll be notified once the review is done. Meanwhile, take a quick tour of the app and update your profile.</string>
     <string name="complete_your_profile">Complete your profile</string>
     <string name="update"><u>Update</u></string>
-    <string name="happy_to_help_you">Happy to help you !!</string>
+    <string name="happy_to_help_you">Happy to help you \!\!</string>
     <string name="text1">Wondering how some celebrities have such shiny skin and glowy skin you can almos</string>
     <string name="consult_a_doctor">Consult a doctor</string>
     <string name="consult_a_general_practictioner"><u>Consult a general practictioner</u></string>
@@ -72,6 +74,7 @@
     <string name="maintain_a_good_sleep_cycle">Maintain a good Sleep cycle</string>
     <string name="maintain_diet_for_malnutrition">Maintain Diet for Malnutrition</string>
     <string name="how_to_stay_hydrated">How to Stay Hydrated</string>
+
 
     <string name="Skin">Taking care of a teenager\'s skin is important because this is a time when many hormonal changes can lead to various skin issues like acne. Here are some general tips for teenagers to maintain healthy skin:</string>
     <string name="types_skin"><u><b>Cleansing</b></u>: Teach them to wash their face twice a day with a gentle, sulfate-free cleanser. Avoid using harsh soaps or scrubbing too vigorously, as this can irritate the skin.\n<u><b>Hydration</b></u>: Encourage them to drink plenty of water to keep their skin hydrated from within. Proper hydration is essential for healthy skin.\n<u><b>Sun Protection</b></u>: Stress the importance of wearing sunscreen daily, even on cloudy days, to protect their skin from harmful UV rays. Look for a broad-spectrum sunscreen with at least SPF 30.\n<u><b>Balanced Diet</b></u>: A balanced diet rich in fruits, vegetables, and whole grains can contribute to healthier skin. Foods high in antioxidants, like berries and leafy greens, can help combat free radicals.\nRemember that everyone\'s skin is different, and what works for one person may not work for another. It may take some trial and error to find the right skincare routine and products that suit your teenager\'s skin type and specific concerns. Patience and consistency are key when it comes to skincare.</string>
@@ -138,6 +141,7 @@ Be gentle when styling your hair, and avoid tight hairstyles that pull on the ha
 <u><b>Reduce Heat and Styling Damage</b></u>:
 Limit the use of heat styling tools like hairdryers, straighteners, and curling irons.Use heat protectant products when styling your hair with heat tools.</string>
     <string name="fetch">Fetch</string>
+    <string name="medx_Intro">Access quality healthcare with ease. Log in or create an account to get started</string>
 
     <string-array name="symp1">
         <item>Headache</item>
@@ -148,41 +152,31 @@ Limit the use of heat styling tools like hairdryers, straighteners, and curling 
         <item>Joint Pain</item>
     </string-array>
 
-<!--    <string-array name="symp2">-->
-<!--        <item>Headache</item>-->
-<!--        <item>Fever</item>-->
-<!--        <item>Nausea</item>-->
-<!--        <item>Cough</item>-->
-<!--        <item>Stomach ache</item>-->
-<!--        <item>Joint Pain</item>-->
-<!--    </string-array>-->
 
-<!--    <string-array name="symp3">-->
-<!--        <item>Headache</item>-->
-<!--        <item>Fever</item>-->
-<!--        <item>Nausea</item>-->
-<!--        <item>Cough</item>-->
-<!--        <item>Stomach ache</item>-->
-<!--        <item>Joint Pain</item>-->
-<!--    </string-array>-->
+    <!--    diseases-->
+    <string name="Influenza"><b>Influenza</b>, commonly known as the flu, is a highly contagious viral respiratory infection caused by influenza viruses. It typically presents with symptoms such as fever, headache, cough, and, in some cases, nausea. The flu is known for its sudden onset of symptoms, which can range from mild to severe. In addition to the symptoms mentioned, people with the flu may also experience muscle aches, fatigue, sore throat, and congestion. Influenza can lead to complications, especially in vulnerable populations like the elderly, young children, and those with weakened immune systems. Vaccination is an effective way to prevent the flu, and antiviral medications may be prescribed to reduce the severity and duration of symptoms in some cases. If you suspect you have the flu, it\'s important to seek medical attention, especially if you are at a higher risk of complications.</string>
 
-<!--    <string-array name="symp4">-->
-<!--        <item>Headache</item>-->
-<!--        <item>Fever</item>-->
-<!--        <item>Nausea</item>-->
-<!--        <item>Cough</item>-->
-<!--        <item>Stomach ache</item>-->
-<!--        <item>Joint Pain</item>-->
-<!--    </string-array>-->
+    <string name="Gastroenteritis"><b>Gastroenteritis</b> is an inflammation of the stomach and intestines, typically caused by viral or bacterial infections. It is commonly characterized by symptoms such as nausea, vomiting, stomach ache, diarrhea, and sometimes fever. This condition is often referred to as the stomach flu or food poisoning, and it can lead to dehydration due to the loss of fluids through vomiting and diarrhea. Gastroenteritis is usually a self-limiting condition, and treatment involves staying hydrated and, in some cases, taking medications to alleviate symptoms. However, severe cases may require medical attention, especially in young children, the elderly, or individuals with weakened immune systems. It\'s important to practice good hygiene and food safety to prevent the spread of gastroenteritis.</string>
 
-<!--    <string-array name="symp5">-->
-<!--        <item>Headache</item>-->
-<!--        <item>Fever</item>-->
-<!--        <item>Nausea</item>-->
-<!--        <item>Cough</item>-->
-<!--        <item>Stomach ache</item>-->
-<!--        <item>Joint Pain</item>-->
-<!--    </string-array>-->
+    <string name="COVID_19"><b>COVID-19</b> is a highly contagious viral respiratory illness caused by the novel coronavirus SARS-CoV-2. This disease can present with a range of symptoms, including fever, cough, headache, and sometimes stomach ache. It typically spreads through respiratory droplets and can result in a wide spectrum of severity, from mild or asymptomatic cases to severe respiratory distress.Fever is a common early symptom, and headaches may occur as part of the overall symptomatology. Cough is another prominent feature, often accompanied by shortness of breath. Some individuals may also experience gastrointestinal symptoms like stomach ache, though this is less common. COVID-19 can be diagnosed through testing, and public health measures like vaccination, mask-wearing, and social distancing are crucial for its prevention and control. It is important to seek medical advice and follow local guidelines if you suspect you have COVID-19, especially if you experience severe symptoms or have been in close contact with a confirmed case.</string>
 
+    <string name="Migraine"><b>Migraine</b> is a type of headache characterized by severe throbbing or pulsating pain, often on one side of the head. It can be accompanied by symptoms like nausea, vomiting, and sensitivity to light and sound. Migraines can last for hours to several days and may be preceded by an "aura," which includes visual disturbances or other sensory changes. These headaches can significantly impact a person\'s daily life and often require rest and medication for relief. The exact cause of migraines is not fully understood, but they are believed to involve changes in blood flow and chemical imbalances in the brain. Treatment may include pain-relief medications, preventive measures, and lifestyle changes. Consulting a healthcare professional is essential for proper diagnosis and management of migraines.
+</string>
 
+    <string name="Appendicitis"><b>Appendicitis</b> is a condition where the appendix, a small pouch in the lower right abdomen, becomes inflamed. It causes severe abdominal pain, often starting near the navel and moving to the lower right side. Other symptoms include fever, nausea, vomiting, and loss of appetite. Appendicitis requires prompt surgical removal of the appendix to prevent it from bursting, which can lead to a severe infection. It\'s a medical emergency, and timely treatment is crucial.
+</string>
+
+    <string name="Arthritis"><b>Arthritis</b> encompasses various joint inflammation conditions, with osteoarthritis and rheumatoid arthritis being common types. Symptoms include joint pain, swelling, and stiffness, impacting daily life. Diagnosis involves medical history, exams, and imaging. Treatment includes medications, physical therapy, lifestyle changes, and, in severe cases, surgery. Arthritis can be inflammatory or non-inflammatory and often requires a multidisciplinary approach. Risk factors include age, genetics, and joint injuries. While some forms are chronic, early diagnosis and proper management help improve quality of life. Prevention involves maintaining a healthy lifestyle. Arthritis affects millions globally, emphasizing the need for comprehensive and personalized care.</string>
+
+    <string name="Sinusitis"><b>Sinusitis</b> is a common medical condition characterized by inflammation or swelling of the sinus cavities, which are the air-filled spaces in the facial bones around the nose and eyes. It typically occurs when these sinuses become blocked and filled with mucus, leading to discomfort and a range of symptoms.</string>
+
+    <string name="Hypertension"><b>Hypertension</b>, or high blood pressure, is a medical condition characterized by elevated force of blood against artery walls. Normal blood pressure is around 120/80 mmHg, but hypertension is defined as consistently having readings of 130/80 mmHg or higher. There are two main types: primary (of unknown cause) and secondary (resulting from underlying conditions). Risk factors include age, family history, race, obesity, lack of physical activity, and an unhealthy diet. Hypertension is often asymptomatic, earning it the nickname "silent killer." Regular monitoring, lifestyle changes, and, if necessary, medication are crucial for management. It is a significant risk factor for heart disease, stroke, and kidney problems.</string>
+
+    <string name="Asthma"><b>Asthma</b> is a chronic respiratory condition marked by inflammation and narrowing of the airways, causing symptoms like wheezing, shortness of breath, chest tightness, and coughing. Triggers include allergens, infections, and environmental factors. Diagnosis involves medical history, examination, and pulmonary function tests. Management includes anti-inflammatory medications for long-term control and bronchodilators for acute relief. Lifestyle measures, trigger avoidance, and an asthma action plan are essential. Asthma severity varies, and severe attacks can be life-threatening, requiring immediate medical attention. Regular check-ups with healthcare providers are crucial for effective asthma control.</string>
+
+    <string name="Dengue"><b>Dengue</b> is a mosquito-borne viral infection with symptoms including high fever, headaches, joint and muscle pain, skin rash, and bleeding tendencies. It is transmitted by Aedes mosquitoes and can range from mild dengue fever to severe forms like dengue hemorrhagic fever or dengue shock syndrome. Diagnosis involves clinical evaluation and blood tests. Treatment is supportive, with no specific antiviral medication. Prevention includes mosquito control measures and, in some regions, vaccination. Severe cases may lead to organ damage and death, emphasizing the importance of timely medical intervention and monitoring. Dengue is a significant public health concern, particularly in tropical regions.</string>
+
+    <string name="Chicken_Pox"><b>Chicken pox</b> is a highly contagious viral infection caused by the varicella–zoster virus. It presents with symptoms like an itchy rash, fever, and headache. The virus spreads through respiratory droplets and direct contact, with an incubation period of 10 to 21 days. Complications can occur, especially in high–risk individuals. Vaccination is an effective preventive measure, and there is no specific antiviral treatment. Infected individuals should be isolated, and natural immunity generally provides lifelong protection. The varicella–zoster virus can later reactivate, causing shingles. Chickenpox is contagious from 1–2 days before the rash until all blisters have crusted over. Timely vaccination and appropriate medical care are crucial in managing and preventing the disease.</string>
+
+    <string name="Typhoid"><b>Typhoid</b> fever is a bacterial infection caused by Salmonella Typhi, transmitted through contaminated food or water. Common symptoms include prolonged fever, headache, and abdominal pain. Diagnosis involves blood, stool, or urine tests, and treatment with antibiotics is crucial. Prevention measures include vaccination, practicing good hygiene, and ensuring safe food and water consumption. Without prompt treatment, typhoid can lead to severe complications. The disease is more prevalent in areas with poor sanitation. Public health efforts focus on improving sanitation, access to clean water, and vaccination to control typhoid. Travelers to endemic regions should consider vaccination and follow hygiene practices to reduce the risk of infection.</string>
 </resources>

@@ -43,10 +43,10 @@
                 app:layout_constraintTop_toBottomOf="@id/text">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/care_skin_pic" />
 
                 <TextView
@@ -97,10 +97,10 @@
                 tools:layout_editor_absoluteX="7dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/apple" />
 
                 <TextView
@@ -149,11 +149,12 @@
                 tools:layout_editor_absoluteX="7dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
-                    android:src="@drawable/apple" />
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/obese" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -201,10 +202,10 @@
                 tools:layout_editor_absoluteX="7dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="15dp"
                     android:src="@drawable/care_skin_pic" />
 
                 <TextView
@@ -252,11 +253,11 @@
                 tools:layout_editor_absoluteX="7dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
-                    android:src="@drawable/apple" />
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/acne" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -304,11 +305,12 @@
                 tools:layout_editor_absoluteX="7dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
-                    android:src="@drawable/care_skin_pic" />
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/dental" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -356,11 +358,11 @@
                 tools:layout_editor_absoluteX="7dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
-                    android:src="@drawable/care_skin_pic" />
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/sleep" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -408,11 +410,11 @@
                 tools:layout_editor_absoluteX="7dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
-                    android:src="@drawable/care_skin_pic" />
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/astma" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -460,11 +462,11 @@
                 tools:layout_editor_absoluteX="7dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
-                    android:src="@drawable/care_skin_pic" />
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/malnutrition" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -512,11 +514,11 @@
                 tools:layout_editor_absoluteX="7dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginTop="14dp"
-                    android:src="@drawable/care_skin_pic" />
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/hydrated" />
 
                 <TextView
                     android:layout_width="wrap_content"

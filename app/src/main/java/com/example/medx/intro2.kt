@@ -10,9 +10,15 @@ class intro2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intro2)
 
-        val button =findViewById<Button>(R.id.button)
-        button.setOnClickListener {
+        val nextbutton =findViewById<Button>(R.id.nextBtn)
+        nextbutton.setOnClickListener {
             val intent = Intent(this, intro3::class.java)
+            startActivity(intent)
+        }
+
+        val button = findViewById<Button>(R.id.button)
+        button.setOnClickListener {
+            val intent = Intent(this,SignupORSignIn::class.java)
             startActivity(intent)
         }
     }

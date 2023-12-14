@@ -3,7 +3,6 @@ package com.example.medx
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -36,6 +35,8 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.care_skin_pic)
+            Toast.makeText(this, (R.drawable.care_skin_pic).toString(),Toast.LENGTH_SHORT).show()
             startActivity(intent)
         }
 
@@ -47,6 +48,7 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.apple)
             startActivity(intent)
         }
 
@@ -58,6 +60,7 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.obese)
             startActivity(intent)
         }
 
@@ -69,6 +72,7 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.dental)
             startActivity(intent)
         }
         readSleep.setOnClickListener {
@@ -78,6 +82,7 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.sleep)
             startActivity(intent)
         }
         readAcne.setOnClickListener {
@@ -88,6 +93,7 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.acne)
             startActivity(intent)
         }
         readHydrated.setOnClickListener {
@@ -98,6 +104,7 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.hydrated)
             startActivity(intent)
            }
         readAsthma.setOnClickListener {
@@ -108,6 +115,7 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.astma)
             startActivity(intent)
         }
         readMalnutrition.setOnClickListener {
@@ -117,6 +125,7 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.malnutrition)
             startActivity(intent)
         }
 
@@ -128,6 +137,7 @@ class Health_tips : AppCompatActivity() {
             intent.putExtra("disease", s)
             intent.putExtra("cause", s_cause)
             intent.putExtra("prevent", s_prevent)
+            intent.putExtra("Rid",R.drawable.care_skin_pic)
             startActivity(intent)
         }
 

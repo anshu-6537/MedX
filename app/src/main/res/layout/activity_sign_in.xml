@@ -11,9 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="40dp"
         android:clickable="true"
         android:focusable="true"
+        android:background="@null"
         android:src="@drawable/back"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -53,21 +54,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="80dp"
         android:fontFamily="@font/ubuntu_regular"
         android:text="@string/email"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text" />
 
-    <EditText
-        android:id="@+id/emailEt"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailLayout"
+        style="@style/LoginTextInputOuterFieldStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="25dp"
-        android:layout_marginTop="8dp"
-        android:hint="@string/enter_email"
-        app:layout_constraintTop_toBottomOf="@id/email" />
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        app:boxStrokeColor="#FFFFE500"
+        app:hintTextColor="#FFFFE500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailEt"
+            style="@style/LoginTextInputInnerFieldStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your Email"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/password"
@@ -79,71 +94,54 @@
         android:text="@string/password"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/emailEt" />
+        app:layout_constraintTop_toBottomOf="@id/emailLayout" />
 
-    <EditText
-        android:id="@+id/passEt"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordLayout"
+        style="@style/LoginTextInputOuterFieldStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="25dp"
-        android:layout_marginTop="8dp"
-        android:drawableEnd="@drawable/group"
-        android:hint="@string/enter_passsword"
-        app:layout_constraintTop_toBottomOf="@id/password" />
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="50dp"
+        app:boxStrokeColor="#FFFFE500"
+        app:hintTextColor="#FFFFE500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailLayout"
+        app:passwordToggleEnabled="true">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:fontFamily="@font/ubuntu_regular"
-        android:text="@string/forgot_password"
-        android:textSize="14sp"
-        app:layout_constraintRight_toRightOf="@id/passEt"
-        app:layout_constraintTop_toBottomOf="@id/passEt" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passET"
+            style="@style/LoginTextInputInnerFieldStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type Your Password"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="55dp"
-
-        android:layout_marginTop="86dp"
+        android:layout_marginTop="120dp"
         android:background="@drawable/round_box"
         android:text="@string/log_in"
         android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@id/passEt" />
+        app:layout_constraintTop_toBottomOf="@id/passwordLayout" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="161dp"
-        android:src="@drawable/vector_5"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="161dp"
-        android:src="@drawable/vector_5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@id/button" />
 
     <TextView
         android:id="@+id/create_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="171dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/ubuntu_medium"
         android:text="@string/don_t_have_an_account"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/create"
+
         app:layout_constraintTop_toBottomOf="@id/button" />
 
     <TextView

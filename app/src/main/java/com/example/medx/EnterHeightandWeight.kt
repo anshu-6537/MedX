@@ -3,19 +3,13 @@ package com.example.medx
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.SeekBar
-import android.widget.TextView
-import android.widget.Toast
-import org.w3c.dom.Text
+import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
+
 
 class EnterHeightandWeight : AppCompatActivity() {
 
-    val WIDTH_SCALE_RATIO = 10
-    val HEIGHT_SCALE_RATIO = 10
     var heightstart=0
     var heightend=0
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +28,9 @@ class EnterHeightandWeight : AppCompatActivity() {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 htext.text=progress.toString()
                 val diff: Int = progress - previousProcess
-                scaleImage(img, diff)
+                val scale = progress.toFloat() / 100
+
+                img.setScaleY(scale)
                 previousProcess = progress
             }
 
@@ -98,16 +94,16 @@ class EnterHeightandWeight : AppCompatActivity() {
             startActivity(intent)
         }
     }
-    fun scaleImage(img: ImageView, scale: Int) {
-        var bitmap = (img.drawable as BitmapDrawable).bitmap
-        var width = bitmap.width.toFloat()
-        var height = bitmap.height.toFloat()
-        width += scale * WIDTH_SCALE_RATIO
-        height += scale * HEIGHT_SCALE_RATIO
-        bitmap = Bitmap.createScaledBitmap(
-            bitmap, width.toInt(), height.toInt(),
-            true
-        )
-        img.setImageBitmap(bitmap)
-    }
+//    fun scaleImage(img: ImageView, scale: Int) {
+//        var bitmap = (img.drawable as BitmapDrawable).bitmap
+//        var width = bitmap.width.toFloat()
+//        var height = bitmap.height.toFloat()
+//        width += scale * WIDTH_SCALE_RATIO
+//        height += scale * HEIGHT_SCALE_RATIO
+//        bitmap = Bitmap.createScaledBitmap(
+//            bitmap, width.toInt(), height.toInt(),
+//            true
+//        )
+//        img.setImageBitmap(bitmap)
+//    }
 }

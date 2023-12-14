@@ -20,6 +20,7 @@ class SignIn : AppCompatActivity() {
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         firebaseAuth=FirebaseAuth.getInstance()
         binding.create.setOnClickListener {
             val intent = Intent(this, SignUp::class.java)
@@ -28,7 +29,7 @@ class SignIn : AppCompatActivity() {
 
         binding.button.setOnClickListener {
             val email = binding.emailEt.text.toString()
-            val pass = binding.passEt.text.toString()
+            val pass = binding.passET.text.toString()
 
 
 

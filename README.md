@@ -10,7 +10,6 @@
 - [Usage](#usage)
 - [Firebase Configuration](#firebase-configuration)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -64,9 +63,6 @@ Before you begin, ensure you have the following installed:
 # Contributing
 
 If you would like to contribute to MedX, feel free to open issues or pull requests. Your feedback and contributions are highly valued.
-
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Acknowledgments
 Thanks to the open-source community for their valuable contributions.
